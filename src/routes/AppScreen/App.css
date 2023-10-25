@@ -5,11 +5,11 @@
   text-align: center;
 }
 
-#main_App{
-  width: 100px;
-  height: 200px;
+#main_App {
+  width: 360px;
+  height: 800px;
   display: flex;
-  background-color: green;
+  background-color: black;
   justify-content: center;
   align-items: center;
 }
