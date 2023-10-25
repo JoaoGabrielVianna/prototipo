@@ -1,20 +1,21 @@
 import React, { useState } from "react";
 import './Navbar.css';
-import Destaque_icon from "../../assets/svgs/icons/components/Faculdade-icon";
+import Destaques_icon from "../../assets/svgs/icons/components/Destaques-icon";
+import Faculdade_icon from "../../assets/svgs/icons/components/Faculdade-icon";
 
 function NavBar(){
     const [active, setActive] = useState(2);
     const icons =[
-        {name: '', iconD: <Destaque_icon/>, iconA: <Destaque_icon ativo={true}/>, posX: '-138px'},
-        {name: '', iconD: <Destaque_icon/>, iconA: <Destaque_icon ativo={true}/>, posX: '-70px'},
-        {name: '', iconD: <Destaque_icon/>, iconA: <Destaque_icon ativo={true}/>, posX: ''},
-        {name: '', iconD: <Destaque_icon/>, iconA: <Destaque_icon ativo={true}/>, posX: '70px'},
-        {name: '', iconD: <Destaque_icon/>, iconA: <Destaque_icon ativo={true}/>, posX: '137px'},
+        {name: 'faculdade', iconD: <Faculdade_icon/>, iconA: <Faculdade_icon ativo={true}/>, posX: -0.5},
+        {name: 'destaques', iconD: <Destaques_icon/>, iconA: <Destaques_icon ativo={true}/>, posX: 18.6},
+        {name: 'home', iconD: <Destaques_icon/>, iconA: <Destaques_icon ativo={true}/>, posX: 37.6},
+        {name: 'eventos', iconD: <Destaques_icon/>, iconA: <Destaques_icon ativo={true}/>, posX: 57.2},
+        {name: 'profile', iconD: <Destaques_icon/>, iconA: <Destaques_icon ativo={true}/>, posX: 76.3},
     ]
 
     return(
-        <>
-            <main>
+        <><span id="span_Navbar">
+            <main id="main_Navbar">
                 <div className="iconsBackground">
                     {icons.map((id, i) =>(
                         <li key={i} className="icon">
@@ -26,8 +27,9 @@ function NavBar(){
                         </li>
                     ))}
                 </div>
-                <span style={{width: 83, height: 83, position: 'absolute', border: '2px solid white', borderRadius: '100%', backgroundColor: '', translate: `${icons[active].posX}`}} className="indicator"></span>
+                <span style={{left: `${icons[active].posX}%`}} className="indicator"></span>
             </main>
+            </span>
         </>
     )
 }
