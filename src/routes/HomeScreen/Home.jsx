@@ -5,6 +5,7 @@ function Home(){
     return(
         <>
             <main id="main_Home">
+                <header id="header_Home"></header>
                 <h1>PAGINA HOME</h1>
             </main>
         </>
