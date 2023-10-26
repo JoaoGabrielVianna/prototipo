@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: start;
-  min-width: 360px;
+  min-width: 400px;
   min-height: 800px;
   background-color: white;
 }
