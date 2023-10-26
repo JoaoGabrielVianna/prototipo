@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import './Navbar.css';
-import Divisor from "../../assets/svgs/icons/components/Divisor";
-import Faculdade_icon from "../../assets/svgs/icons/components/Faculdade-icon";
-import Destaques_icon from "../../assets/svgs/icons/components/Destaques-icon";
-import Home_icon from "../../assets/svgs/icons/components/Home-icon";
-import Eventos_icon from "../../assets/svgs/icons/components/Eventos-icon";
-import Profile_icon from "../../assets/svgs/icons/components/Profile-icon";
+import Divisor from "../../assets/svgs/icons/navbar/components/Divisor";
+import Faculdade_icon from "../../assets/svgs/icons/navbar/components/Faculdade-icon";
+import Destaques_icon from "../../assets/svgs/icons/navbar/components/Destaques-icon";
+import Home_icon from "../../assets/svgs/icons/navbar/components/Home-icon";
+import Eventos_icon from "../../assets/svgs/icons/navbar/components/Eventos-icon";
+import Profile_icon from "../../assets/svgs/icons/navbar/components/Profile-icon";
 
 
 function NavBar(){

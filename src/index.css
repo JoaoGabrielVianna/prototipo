@@ -31,6 +31,16 @@ h1 {
   color: white;
 }
 
+input{
+  background-color: transparent;
+  border: 0;
+  color: white;
+}
+input:focus{
+  outline: none;
+  
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
