@@ -1,0 +1,145 @@
+.goBack{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#main_Login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #020913;
+}
+
+#Welcome{
+    width: 270px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 26px;
+    position: absolute;
+    transition: opacity  0.5s ease-in;
+    /* visibility: visible; */
+    /* background-color: pink; */
+}
+  
+
+#Welcome h1{
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+  
+#Welcome p{
+    height: 65px;
+    font-size: 10px;
+}
+
+#main_Login #Welcome span{
+    height: 20px;
+    background-color: gainsboro;
+}
+
+#Register{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    transition: opacity  0.5s ease-in;
+    /* background-color: rgba(255, 192, 203, 0.292); */
+}
+
+#register_email{
+    width: 290px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 0px 0px 10px;
+    border-radius: 15px;
+    background-color: #E3E3E3;
+}
+
+#register_senha{
+    width: 290px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 0px 0px 10px;
+    border-radius: 15px;
+    background-color: #E3E3E3;
+}
+
+.divisoria{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 6px;
+}
+.divisoria h1{
+    font-size: 16px;
+}
+
+.linha{
+    width: 128px;
+    height: 1px;
+    background-color: white;
+}
+
+
+.othersSocialMedias{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.othersSocialMedias .icon{
+    border-radius: 10px;
+    width: 53px;
+    height: 53px;
+    background-color: white;
+}
+
+#Login{
+    width: 270px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 26px;
+    position: absolute;
+    transition: opacity  0.5s ease-in;
+    gap: 20px;
+    /* visibility: visible; */
+    /* background-color: pink; */
+}
+
+#login_email{
+    width: 290px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 0px 0px 10px;
+    border-radius: 15px;
+    background-color: #E3E3E3;
+}
+
+#login_senha{
+    width: 290px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 0px 0px 10px;
+    border-radius: 15px;
+    background-color: #E3E3E3;
+}

@@ -17,17 +17,17 @@
     {
         "id": 4,
         "nome": "São Camilo",
-        "foto" : "../../imgs/faculdades/fiap-logo.png"
+        "foto" : "../../imgs/faculdades/sao-camilo-logo.png"
     },
     {
         "id": 5,
         "nome": "UNIP",
-        "foto" : "../../imgs/faculdades/fiap-logo.png"
+        "foto" : "../../imgs/faculdades/unip-logo.png"
     },
     {
         "id": 6,
         "nome": "Mackenzie",
-        "foto" : "../../imgs/faculdades/fiap-logo.png"
+        "foto" : "../../imgs/faculdades/mackenzie-logo.png"
     }
 ]
 

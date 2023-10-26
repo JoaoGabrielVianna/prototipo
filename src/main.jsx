@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './routes/AppScreen/App.jsx';
+import Login from './routes/LoginScreen/Login.jsx';
 import Faculdade from './routes/FaculdadeScreen/Faculdade.jsx';
 import Destaques from './routes/DestaquesScreen/Destaques.jsx';
 import Home from './routes/HomeScreen/Home.jsx';
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
         element: <Profile/>
       }
     ]
+  },
+  {
+    path: "/login",
+    element: <Login/>
   }
 ])
 

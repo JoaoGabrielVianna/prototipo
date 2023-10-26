@@ -36,6 +36,7 @@
 
 #main_FaculdadesBar div img{
     width: 65px;
+    height: 65px;
     border-radius: 100%;
     border: 2px solid white;
 }
