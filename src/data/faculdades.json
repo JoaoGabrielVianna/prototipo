@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "nome": "Fiap",
+        "foto" : "../../imgs/faculdades/fiap-logo.png"
+    },
+    {
+        "id": 2,
+        "nome": "Insper",
+        "foto" : "../../imgs/faculdades/insper-logo.png"
+    },
+    {
+        "id": 3,
+        "nome": "FGV",
+        "foto" : "../../imgs/faculdades/fgv-logo.png"
+    },
+    {
+        "id": 4,
+        "nome": "São Camilo",
+        "foto" : "../../imgs/faculdades/fiap-logo.png"
+    },
+    {
+        "id": 5,
+        "nome": "UNIP",
+        "foto" : "../../imgs/faculdades/fiap-logo.png"
+    },
+    {
+        "id": 6,
+        "nome": "Mackenzie",
+        "foto" : "../../imgs/faculdades/fiap-logo.png"
+    }
+]
+

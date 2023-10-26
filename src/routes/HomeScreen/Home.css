@@ -11,17 +11,23 @@
 
 #header_Home{
     width: 340px;
-    height: 110px;
     padding: 35px 0px 0px 0px;
     position: fixed;
     top: 0;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: .5s ease-out ;
+    /* background-color: grey; */
     background-color: #020913;
     /* border: 2px solid white; */
 }
 
 .search_bar{
+    display: flex;
+}
+
+.search_bar span{
     width: 280px;
     height: 40px;
     border-radius: 20px;
@@ -31,6 +37,7 @@
     gap: 6px;
     padding-left: 10px;
 
+    
     background-color: #0A121E;
 }
 
@@ -41,4 +48,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.faculdade_bar{
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: pink; */
+}
+
+.faculdade_bar h1{
+    font-size: 20px;
+    padding-left: 8px;
 }
