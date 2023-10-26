@@ -7,7 +7,7 @@ function FaculdadesBar({hide}){
 
     return(
         <>
-            <ul id="main_FaculdadesBar" style={{height: hide ? '150px' : '0px', transition: '.5s ease-in-out'}}>
+            <ul id="main_FaculdadesBar" style={{height: hide ? '150px' : '0px', transition: '.1s ease-in-out'}}>
                 {DadosFaculdade.map((faculdade, i) => (
                     <div key={faculdade.id}>
                         <img src={faculdade.foto} alt="" />
