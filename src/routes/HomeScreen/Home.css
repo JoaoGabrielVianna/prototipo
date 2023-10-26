@@ -1,5 +1,6 @@
 #main_Home{
     margin-top: 294px;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -10,8 +11,8 @@
 }
 
 #header_Home{
-    width: 340px;
-    padding: 35px 0px 0px 0px;
+    width: 341px;
+    padding: 35px 10px 0px 10px;
     position: fixed;
     top: 0;
     display: flex;
