@@ -14,8 +14,8 @@ import './index.css'
 
 const router = createBrowserRouter([
   {
-    path: "/x",
-    element: <App/>,
+    path: "/",
+    element: <Login/>,
     errorElement: <Error/>,
     children: [
       {
@@ -41,7 +41,7 @@ const router = createBrowserRouter([
     ]
   },
   {
-    path: "/",
+    path: "/login",
     element: <Login/>
   }
 ])
