@@ -9,7 +9,7 @@ import Eventos_icon from "../../assets/svgs/icons/navbar/components/Eventos-icon
 import Profile_icon from "../../assets/svgs/icons/navbar/components/Profile-icon";
 
 
-function NavBar(){
+function NavBar({ show = true }){
     const [active, setActive] = useState(2);
     const icons =[
         {name: 'faculdade', local: '/faculdade', iconD: <Faculdade_icon/>, iconA: <Faculdade_icon ativo={true}/>, posX: -100.5},
@@ -20,7 +20,8 @@ function NavBar(){
     ]
 
     return(
-        <><span id="span_Navbar">
+        <>
+            {show ? <span id="span_Navbar">
             <main id="main_Navbar">
                 <div className="iconsBackground">
                     {icons.map((id, i) =>(
@@ -36,7 +37,7 @@ function NavBar(){
                 <span className="divisor" style={{left: `${icons[active].posX}%`, transition: '.5s ease'}}><Divisor/></span>
                 {/* <span style={{left: `${icons[active].posX}%`, transition: '.5s ease'}} className="indicator"></span> */}
             </main>
-            </span>
+            </span>: ''}
         </>
     )
 }
