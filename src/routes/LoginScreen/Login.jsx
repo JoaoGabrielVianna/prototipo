@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './Login.css';
+import { Link } from "react-router-dom";
 import EnterButton from "../../components/loginButton/EnterButton";
 import RegisterButton from "../../components/loginButton/RegisterButton";
 import Email from "../../assets/svgs/icons/email-icon/Email";
@@ -65,7 +66,8 @@ function Login() {
                             <Senha />
                             <input type="text" placeholder="Digite uma senha..." style={{ color: 'black' }} />
                     </span>
-                    <EnterButton />
+
+                    <Link to={'/home'}><EnterButton /></Link>
                 </div>
 
                 <span className="circles">
