@@ -81,10 +81,6 @@ function Login() {
                     <Circle_Small positionX={login ? 320 : registro ? 320 : 370} positionY={login ? 680 : registro ? 740 : 750}/>
                 </span>
             </main>
-            <NavBar show={false}/>
-
-           
-
         </>
     )
 }

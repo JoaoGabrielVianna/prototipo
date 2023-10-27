@@ -14,7 +14,7 @@ function NavBar({ show = true }){
     const icons =[
         {name: 'faculdade', local: '/faculdade', iconD: <Faculdade_icon/>, iconA: <Faculdade_icon ativo={true}/>, posX: -100.5},
         {name: 'destaques', local: '/destaques', iconD: <Destaques_icon/>, iconA: <Destaques_icon ativo={true}/>, posX: -82},
-        {name: 'home', local: '/', iconD: <Home_icon/>, iconA: <Home_icon ativo={true}/>, posX: -62.5},
+        {name: 'home', local: '/home', iconD: <Home_icon/>, iconA: <Home_icon ativo={true}/>, posX: -62.5},
         {name: 'eventos', local: '/eventos', iconD: <Eventos_icon/>, iconA: <Eventos_icon ativo={true}/>, posX: -43},
         {name: 'profile', local: '/profile', iconD: <Profile_icon/>, iconA: <Profile_icon ativo={true}/>, posX: -23},
     ]

@@ -1,7 +1,14 @@
 .goBack{
+    width: 50px;
+    height: 50px;
     position: absolute;
     top: 20px;
     left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    z-index: 1;
 }
 
 #main_Login {
@@ -13,6 +20,7 @@
     justify-content: center;
     align-items: center;
     background-color: #020913;
+    overflow: hidden;
 }
 
 #Welcome{
@@ -149,6 +157,7 @@
     width: 60vh;
     height: 100%;
     position: fixed;
+    z-index: 0;
     /* background-color: rgba(172, 255, 47, 0.161); */
 }
 
