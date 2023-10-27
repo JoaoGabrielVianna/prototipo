@@ -67,7 +67,19 @@ function Login() {
                     </span>
                     <EnterButton />
                 </div>
+
+                <span className="circles">
+                    <Circle_Big positionX={login ? 300 : registro ? 80: 100} positionY={login ? 20 : registro ? 60 : 100}/>
+                    <Circle_Media positionX={login ? 190 : registro ? 230 : 290} positionY={login ? 100 : registro ? 130:  70}/>
+                    <Circle_Small positionX={login ? 100 : registro ? 300 : 170} positionY={login ? 60 : registro ? 50 : 40}/>
+
+                    <Circle_Big positionX={login ? 290 : registro ? 230: 100} positionY={login ? 540 : registro ? 570 : 660}/>
+                    <Circle_Media positionX={login ? 100 : registro ? 150 : 290} positionY={login ? 650 : registro ? 650:  580}/>
+                    <Circle_Small positionX={login ? 320 : registro ? 320 : 370} positionY={login ? 680 : registro ? 740 : 750}/>
+                </span>
             </main>
+
+           
 
         </>
     )
